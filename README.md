@@ -16,7 +16,7 @@ I set the loop to test the model from 1 to 11 variables and dependent on lowest 
 (picture is the mse changing on random forest with 4 variables and 1 to 288 trees)
 
 # Conclusion  
-Finally, I get the best model with lowest RMSE when we choose 4 variables at each split and build 288 trees. Moreover, I use 'varImpPlot()' to show which variables are more important than others. This plot can help us to do feature selection. In my project, area and quality are the most two important variables to impact home price. On the other hand, pool, highway, and air conditioner are three most unimportant factors to impact the price.  
+Finally, I get the best model with lowest RMSE when we choose 4 variables at each split and build 288 trees. Moreover, I use 'varImpPlot()' to show which variables are more important than others. This plot can help us to do feature selection. In my project, <b>area</b> and <b>quality</b> are the most two important variables to impact home price. On the other hand, pool, highway, and air conditioner are three most unimportant factors to impact the price.  
 ![2](https://user-images.githubusercontent.com/67025904/134745548-e60385ce-ea14-4d73-8933-0360f9aec27d.jpg)
 
 # Resource
