@@ -8,7 +8,7 @@ In this case, 11 of square root is about 3. Later, we test our model get RMSE = 
 
 - Adjust number of variables tried at each split and number of trees in training model.  
 I use 11 variables tried at each split to train and test the model. Get RMSE = 57911 which is worse than original model. Then, I use different tree to fit the model. 
-I choose 100 trees wiht 11 variables to fit the model and get RMSE = 58345 which is the worst among existed three models.  
+I choose 100 trees with 11 variables to fit the model and get RMSE = 58345 which is the worst among existed three models.  
 
 - <b>Tune the parameters to get best model.</b>  
 I set the loop to test the model from 1 to 11 variables and dependent on lowest RMSE to select the best tree numbers for each variable selection. In this case, I find 4 variables has the lowest RMSE and the number of tree is 288.  
